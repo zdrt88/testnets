@@ -1,0 +1,5 @@
+// install docker
+sudo snap install docker
+docker-compose down -v
+docker-compose pull
+docker-compose up
